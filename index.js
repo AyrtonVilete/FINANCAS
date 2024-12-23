@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const config = {
-    user: 'sa',
-    password: 'inter#system',
+    user: 'User banco',
+    password: 'Senha de acesso ao banco',
     server: 'localhost',
     port: 1433,
-    database: 'FINANCAS',
+    database: 'Seu banco de dados',
     pool: {
         max: 10,
         min: 0,
